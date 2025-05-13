@@ -7,8 +7,8 @@ import io.temporal.workflow.WorkflowMethod;
 @WorkflowInterface
 public interface RAGProcessingWorkflow {
     @WorkflowMethod
-    void processDocument(String documentLocation);
+    void processResource(String resourceUrl) ;
 
     @QueryMethod
-    String getDocumentLocation();
+    String getStatus();
 }

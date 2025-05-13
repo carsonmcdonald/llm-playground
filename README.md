@@ -19,6 +19,11 @@ docker run -d -p 5432:5432 \
 
 Example interaction:
 ```shell
+# Make a user chat request
 curl -X PATCH -H "Content-Type: application/json" -d "tell me a joke" http://localhost:8080/chat
 curl -H "Content-Type: application/json" http://localhost:8080/chat/1836441a-0c5c-405f-8780-9df5533e708b
+
+# Make an admin process resource request
+curl -X POST -H "Content-Type: application/json" -d "https://example.com/example.pdf" http://localhost:8080/chat
+curl -H "Content-Type: application/json" http://localhost:8080/admin/resource/1836441a-0c5c-405f-8780-9df5533e708b/status
 ```
