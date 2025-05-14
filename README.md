@@ -1,6 +1,6 @@
-# Testing different RAG techniques WIP
+# Testing different LLM techniques WIP
 
-A starting point for doing RAG processing.
+If you happen to be looking specifically for something using Spring AI see my [Spring AI RAG using Temporal](https://github.com/carsonmcdonald/spring-ai-rag-temporal) demo.
 
 For the moment I'm using [Spring AI](https://spring.io/projects/spring-ai) and [Ollama](https://ollama.com/) for everything, but I plan on changing that as I work through the different techniques. This is a good [Spring AI intro video](https://www.youtube.com/watch?v=6Pgmr7xMjiY).
 
